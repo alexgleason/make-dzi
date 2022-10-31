@@ -1,0 +1,7 @@
+services:
+  convert:
+    build: .
+    image: make-dzi
+    volumes:
+      - ./files:/app/files
+      - ./dzi:/app/dzi
